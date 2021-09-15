@@ -1,0 +1,145 @@
+/*** Web-Page behaviour ***/
+body {
+  scroll-behavior: smooth;
+  transition: 0.8s ease;
+  font-family: "poppins";
+  font-weight: bolder;
+}
+
+/*** Web-Page behaviour ***/
+
+/* Navbar Syles */
+a.nav-link.active {
+  transition: 0.6s ease;
+  background-color: #52ffa8bd;
+}
+
+a.nav-link.active:hover {
+  background-color: #52ffa8bd;
+  border-radius: 8px;
+}
+
+span.carousel-control-prev-icon:hover {
+  filter: blur(1px);
+}
+
+/* Navbar Styles Ends */
+/* SLider Styles */
+.slider .carousel-control-prev:hover {
+  background-color: #88959f;
+}
+
+.slider .carousel-control-next:hover {
+  background-color: #88959f;
+}
+
+.carousel-item .d-block.w-100 {
+  opacity: 0.3;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 430px;
+  z-index: 12;
+  color: #fff;
+  opacity: 0.7;
+}
+
+span.carousel-control-next-icon:hover {
+  filter: blur(1px);
+}
+
+span..carousel-control-prev-icon:hover {
+  filter: blur(1px);
+}
+
+/* SLider Styles Ends */
+/* Custom Fonts */
+.span-1 {
+  font-size: 12px;
+}
+
+
+/* Projects Page */
+.bg-overlay{
+  opacity: 0.8;
+  z-index: 999999;
+}
+.bg-overlay{
+  
+}
+
+/* Cards Custom Color */
+.crd-1 {
+  background-color: #52ffa8bd !important;
+}
+
+.crd-2 {
+  background-color: #eee8aa !important;
+}
+
+.crd-3 {
+  background-color: #00beff !important;
+}
+
+/* Cards Custom Ends */
+/* Banner Styles Begins */
+/* .banner-cta {
+  background-color: #ffffff69 !important;
+  margin: 15px 0;
+} */
+
+.bg-custom {
+  background-color: #eee8aa;
+}
+
+/* Banner Styles Ends */
+/* FAQS */
+h3.faq {
+  color: #eee8aa;
+}
+
+/* FAQS ENDS */
+/* Footer Styles */
+footer img {
+  filter: brightness(0.5);
+}
+
+.footer-custom {
+  width: 150px;
+  height: 150px;
+}
+
+.footer-custom {
+  width: 150px;
+  height: 150px;
+}
+
+.rounded-circle.bg-white.shadow-1-strong.d-flex.align-items-center.justify-content-center.mb-4.mx-auto {
+    width: 150px;
+    height: 150px;
+}
+
+.copyright{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* Responsive Web Designs */
+@media only screen and (max-width: 400px) {
+   .carousel-caption.custom {
+    top: 125px;
+}
+
+  .custom h2 {
+    font-size: 18px;
+}
+  .lead.text-light {
+    font-size: 15px;
+}
+   .btn.btn-dark.mt-2.rounded {
+    font-size: 12px;
+}
+
+ 
+} /******** Media Query Ended ********/
