@@ -49,7 +49,7 @@ span.carousel-control-next-icon:hover {
   filter: blur(1px);
 }
 
-span..carousel-control-prev-icon:hover {
+span.carousel-control-prev-icon:hover {
   filter: blur(1px);
 }
 
@@ -59,14 +59,10 @@ span..carousel-control-prev-icon:hover {
   font-size: 12px;
 }
 
-
 /* Projects Page */
-.bg-overlay{
+.bg-overlay {
   opacity: 0.8;
   z-index: 999999;
-}
-.bg-overlay{
-  
 }
 
 /* Cards Custom Color */
@@ -83,6 +79,14 @@ span..carousel-control-prev-icon:hover {
 }
 
 /* Cards Custom Ends */
+
+/****** Projects Page Carbon Code Image ******/
+.code-img{
+  filter: brightness(1);
+}
+
+
+
 /* Banner Styles Begins */
 /* .banner-cta {
   background-color: #ffffff69 !important;
@@ -116,30 +120,27 @@ footer img {
 }
 
 .rounded-circle.bg-white.shadow-1-strong.d-flex.align-items-center.justify-content-center.mb-4.mx-auto {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
-.copyright{
+.copyright {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-
 /* Responsive Web Designs */
 @media only screen and (max-width: 400px) {
-   .carousel-caption.custom {
+  .carousel-caption.custom {
     top: 125px;
-}
+  }
 
   .custom h2 {
     font-size: 18px;
-}
+  }
   .lead.text-light {
     font-size: 15px;
-}
-   .btn.btn-dark.mt-2.rounded {
+  }
+  .btn.btn-dark.mt-2.rounded {
     font-size: 12px;
-}
-
- 
+  }
 } /******** Media Query Ended ********/
