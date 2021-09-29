@@ -78,6 +78,16 @@ span.carousel-control-prev-icon:hover {
   background-color: #00beff !important;
 }
 
+.card .m-auto .crd-1{
+  width: 18rem;
+}
+.card .m-auto .crd-2{
+  width: 18rem;
+}
+.card .m-auto .crd-3{
+  width: 18rem;
+}
+
 /* Cards Custom Ends */
 
 /****** Projects Page Carbon Code Image ******/
