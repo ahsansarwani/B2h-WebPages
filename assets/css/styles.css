@@ -131,7 +131,8 @@ footer img {
 /* Responsive Web Designs */
 @media only screen and (max-width: 400px) {
   .carousel-caption.custom {
-    top: 125px;
+    top: 145px;
+    z-index: none;
   }
 
   .custom h2 {
