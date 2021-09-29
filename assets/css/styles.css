@@ -145,6 +145,10 @@ footer img {
     z-index: none;
   }
 
+  span.carousel-control-next-icon, span.carousel-control-prev-icon {
+    display: none;
+  }
+
   .custom h2 {
     font-size: 18px;
   }
