@@ -155,7 +155,8 @@ footer img {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive Web Designs */
+/* Media Query For Mobile Screens Starts */
+
 @media only screen and (max-width: 400px) {
   .carousel-caption.custom {
     top: 145px;
@@ -179,4 +180,18 @@ footer img {
   .btn.btn-dark.mt-2.rounded {
     font-size: 12px;
   }
-} /******** Media Query Ended ********/
+}
+
+
+@media only screen and (max-width: 810px) {
+  .carousel-caption.custom {
+    top: 30.5%;
+}
+  .card-body.text-light.mt-3 {
+  font-size: 7px;
+}
+  .btn.btn-success.rounded {
+  font-size: 14px;
+}
+}
+/* Media Query For Mobile Screens Ends */
