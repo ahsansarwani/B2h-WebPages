@@ -37,9 +37,9 @@ span.carousel-control-prev-icon:hover {
   opacity: 0.3;
 }
 
-.carousel-caption {
+.carousel-caption .custom{
   position: absolute;
-  top: 430px;
+  top: 40%;
   z-index: 12;
   color: #fff;
   opacity: 0.7;
