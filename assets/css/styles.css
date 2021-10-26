@@ -125,6 +125,15 @@ span.carousel-control-prev-icon:hover {
 }
 
 /* Banner Styles Ends */
+
+
+/**** About Page Starts ****/
+.about-text h3 {
+  font-size: 20px;
+}
+
+/**** About Page Ends ****/
+
 /* FAQS */
 h3.faq {
   color: #eee8aa;
@@ -157,7 +166,7 @@ footer img {
 
 /* Media Query For Mobile Screens Starts */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .carousel-caption.custom {
     top: 145px;
     z-index: none;
@@ -180,6 +189,53 @@ footer img {
   .btn.btn-dark.mt-2.rounded {
     font-size: 12px;
   }
+
+  .carousel-caption h1 {
+    font-size: 18px;
+}
+  .carousel-caption p {
+  font-size: 10px;
+}
+
+.btn.btn-success.rounded-0.mt-2.btn-custom-projects {
+  padding: 2px 4px 2px 4px;
+  font-size: 12px;
+}
+.card.card-custom{
+  cursor: default;
+}
+.custom-body-text h3 {
+  font-size: 20px;
+}
+.custom-body-text p {
+  font-size: 14px;
+  width: 70%;
+}
+
+.btn-custom-about {
+  font-size: 14px;
+  padding: 4px 8px 4px 8px;
+}
+
+.custom h2 {
+  font-size: 20px;
+}
+
+.custom-2 .form-label {
+    font-size: 12px;
+}
+
+#emailHelp {
+  font-size: 12px;
+}
+
+.form-check-input {
+  margin-top: 6px !important;
+}
+
+.form-check-label {
+  font-size: 12px;
+}
 }
 
 
