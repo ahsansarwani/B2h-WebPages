@@ -11,11 +11,11 @@ body {
 /* Navbar Syles */
 a.nav-link.active {
   transition: 0.6s ease;
-  background-color: #52ffa8bd;
+  background-color: #00BEFF;
 }
 
 a.nav-link.active:hover {
-  background-color: #52ffa8bd;
+  background-color: #00BEFF;
   border-radius: 8px;
 }
 
